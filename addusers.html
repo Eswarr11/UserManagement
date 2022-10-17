@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>adduser</title>
+		<link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+	</head>
+	<body>
+		<h1>Add New user details</h1>
+		<form action='' method='post'>
+			<label>Name:</label>
+			<input type="text" name="name" required>
+			<label>age:</label>
+			<input type="text" name="age" required>
+			<label>city:</label>
+			<input type="text" name="city" required>
+			<input type="submit" value='save details'>
+		</form>
+	</body>
+</html>

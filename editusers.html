@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>update users</title>
+		<link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+	</head>
+	<body>
+		<h1>Update user details</h1>
+		<form action='' method='post'>
+			<label>Name:</label>
+			<input type="text" name="name" value="{{datas.name}}" required>
+			<label>age:</label>
+			<input type="text" name="age" value="{{datas.AGE}}" required>
+			<label>city:</label>
+			<input type="text" name="city" value="{{datas.CITY}}" required>
+			<input type="submit" value='Update details'>
+		</form>
+	</body>
+</html>
